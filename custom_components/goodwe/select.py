@@ -16,14 +16,15 @@ _LOGGER = logging.getLogger(__name__)
 
 
 _MODE_TO_OPTION: dict[OperationMode, str] = {
-    OperationMode.GENERAL: "general",
-    OperationMode.OFF_GRID: "off_grid",
-    OperationMode.BACKUP: "backup",
-    OperationMode.ECO: "eco",
-    OperationMode.PEAK_SHAVING: "peak_shaving",
-    OperationMode.ECO_CHARGE: "eco_charge",
-    OperationMode.ECO_DISCHARGE: "eco_discharge",
+    OperationMode.GENERAL: "General mode",
+    OperationMode.OFF_GRID: "Off grid mode",
+    OperationMode.BACKUP: "Backup mode",
+    OperationMode.ECO: "Eco mode",
+    OperationMode.PEAK_SHAVING: "Peak shaving mode",
+    OperationMode.ECO_CHARGE: "Eco charge mode",
+    OperationMode.ECO_DISCHARGE: "Eco discharge mode",
 }
+
 
 _OPTION_TO_MODE: dict[str, OperationMode] = {
     value: key for key, value in _MODE_TO_OPTION.items()
