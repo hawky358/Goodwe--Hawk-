@@ -6,7 +6,7 @@ Code based on integration which is part of home assistant 2023.4.
 
 
 
-**Version 1.0.3b0**
+**Version 1.0.3b1**
 
 Test
 
